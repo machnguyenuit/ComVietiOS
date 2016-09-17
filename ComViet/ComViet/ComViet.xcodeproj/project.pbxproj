@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A92A0F01D8DA0A800726F8D /* ComVietTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A0EF1D8DA0A800726F8D /* ComVietTests.m */; };
+		2A92A0FB1D8DA0A800726F8D /* ComVietUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A0FA1D8DA0A800726F8D /* ComVietUITests.m */; };
+		2A92A1481D8DA1D700726F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A10B1D8DA1D700726F8D /* AppDelegate.m */; };
+		2A92A1491D8DA1D700726F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A10B1D8DA1D700726F8D /* AppDelegate.m */; };
+		2A92A14A1D8DA1D700726F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A10B1D8DA1D700726F8D /* AppDelegate.m */; };
+		2A92A14E1D8DA1D700726F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A10E1D8DA1D700726F8D /* LaunchScreen.storyboard */; };
+		2A92A14F1D8DA1D700726F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A10E1D8DA1D700726F8D /* LaunchScreen.storyboard */; };
+		2A92A1501D8DA1D700726F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A10E1D8DA1D700726F8D /* LaunchScreen.storyboard */; };
+		2A92A1511D8DA1D700726F8D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1111D8DA1D700726F8D /* Info.plist */; };
+		2A92A1521D8DA1D700726F8D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1111D8DA1D700726F8D /* Info.plist */; };
+		2A92A1531D8DA1D700726F8D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1111D8DA1D700726F8D /* Info.plist */; };
+		2A92A1541D8DA1D700726F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1121D8DA1D700726F8D /* main.m */; };
+		2A92A1551D8DA1D700726F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1121D8DA1D700726F8D /* main.m */; };
+		2A92A1561D8DA1D700726F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1121D8DA1D700726F8D /* main.m */; };
+		2A92A1571D8DA1D700726F8D /* Introduce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1151D8DA1D700726F8D /* Introduce.storyboard */; };
+		2A92A1581D8DA1D700726F8D /* Introduce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1151D8DA1D700726F8D /* Introduce.storyboard */; };
+		2A92A1591D8DA1D700726F8D /* Introduce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1151D8DA1D700726F8D /* Introduce.storyboard */; };
+		2A92A15A1D8DA1D700726F8D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1161D8DA1D700726F8D /* Login.storyboard */; };
+		2A92A15B1D8DA1D700726F8D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1161D8DA1D700726F8D /* Login.storyboard */; };
+		2A92A15C1D8DA1D700726F8D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1161D8DA1D700726F8D /* Login.storyboard */; };
+		2A92A15D1D8DA1D700726F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1171D8DA1D700726F8D /* Main.storyboard */; };
+		2A92A15E1D8DA1D700726F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1171D8DA1D700726F8D /* Main.storyboard */; };
+		2A92A15F1D8DA1D700726F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1171D8DA1D700726F8D /* Main.storyboard */; };
+		2A92A1601D8DA1D700726F8D /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1181D8DA1D700726F8D /* Search.storyboard */; };
+		2A92A1611D8DA1D700726F8D /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1181D8DA1D700726F8D /* Search.storyboard */; };
+		2A92A1621D8DA1D700726F8D /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A1181D8DA1D700726F8D /* Search.storyboard */; };
+		2A92A1631D8DA1D700726F8D /* BaseNV.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A11D1D8DA1D700726F8D /* BaseNV.m */; };
+		2A92A1641D8DA1D700726F8D /* BaseNV.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A11D1D8DA1D700726F8D /* BaseNV.m */; };
+		2A92A1651D8DA1D700726F8D /* BaseNV.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A11D1D8DA1D700726F8D /* BaseNV.m */; };
+		2A92A1661D8DA1D700726F8D /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1201D8DA1D700726F8D /* BaseVC.m */; };
+		2A92A1671D8DA1D700726F8D /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1201D8DA1D700726F8D /* BaseVC.m */; };
+		2A92A1681D8DA1D700726F8D /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1201D8DA1D700726F8D /* BaseVC.m */; };
+		2A92A1691D8DA1D700726F8D /* CellIntro.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1241D8DA1D700726F8D /* CellIntro.m */; };
+		2A92A16A1D8DA1D700726F8D /* CellIntro.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1241D8DA1D700726F8D /* CellIntro.m */; };
+		2A92A16B1D8DA1D700726F8D /* CellIntro.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1241D8DA1D700726F8D /* CellIntro.m */; };
+		2A92A16C1D8DA1D700726F8D /* IntroduceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1271D8DA1D700726F8D /* IntroduceVC.m */; };
+		2A92A16D1D8DA1D700726F8D /* IntroduceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1271D8DA1D700726F8D /* IntroduceVC.m */; };
+		2A92A16E1D8DA1D700726F8D /* IntroduceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1271D8DA1D700726F8D /* IntroduceVC.m */; };
+		2A92A16F1D8DA1D700726F8D /* ForGetpassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A12B1D8DA1D700726F8D /* ForGetpassVC.m */; };
+		2A92A1701D8DA1D700726F8D /* ForGetpassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A12B1D8DA1D700726F8D /* ForGetpassVC.m */; };
+		2A92A1711D8DA1D700726F8D /* ForGetpassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A12B1D8DA1D700726F8D /* ForGetpassVC.m */; };
+		2A92A1721D8DA1D700726F8D /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A12E1D8DA1D700726F8D /* LoginVC.m */; };
+		2A92A1731D8DA1D700726F8D /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A12E1D8DA1D700726F8D /* LoginVC.m */; };
+		2A92A1741D8DA1D700726F8D /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A12E1D8DA1D700726F8D /* LoginVC.m */; };
+		2A92A1751D8DA1D700726F8D /* SignUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1311D8DA1D700726F8D /* SignUpVC.m */; };
+		2A92A1761D8DA1D700726F8D /* SignUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1311D8DA1D700726F8D /* SignUpVC.m */; };
+		2A92A1771D8DA1D700726F8D /* SignUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1311D8DA1D700726F8D /* SignUpVC.m */; };
+		2A92A1781D8DA1D700726F8D /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1341D8DA1D700726F8D /* MainVC.m */; };
+		2A92A1791D8DA1D700726F8D /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1341D8DA1D700726F8D /* MainVC.m */; };
+		2A92A17A1D8DA1D700726F8D /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1341D8DA1D700726F8D /* MainVC.m */; };
+		2A92A17B1D8DA1D700726F8D /* MenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1371D8DA1D700726F8D /* MenuVC.m */; };
+		2A92A17C1D8DA1D700726F8D /* MenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1371D8DA1D700726F8D /* MenuVC.m */; };
+		2A92A17D1D8DA1D700726F8D /* MenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1371D8DA1D700726F8D /* MenuVC.m */; };
+		2A92A17E1D8DA1D700726F8D /* CellSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A13B1D8DA1D700726F8D /* CellSearch.m */; };
+		2A92A17F1D8DA1D700726F8D /* CellSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A13B1D8DA1D700726F8D /* CellSearch.m */; };
+		2A92A1801D8DA1D700726F8D /* CellSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A13B1D8DA1D700726F8D /* CellSearch.m */; };
+		2A92A1811D8DA1D700726F8D /* DanhMucVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A13E1D8DA1D700726F8D /* DanhMucVC.m */; };
+		2A92A1821D8DA1D700726F8D /* DanhMucVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A13E1D8DA1D700726F8D /* DanhMucVC.m */; };
+		2A92A1831D8DA1D700726F8D /* DanhMucVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A13E1D8DA1D700726F8D /* DanhMucVC.m */; };
+		2A92A1841D8DA1D700726F8D /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1411D8DA1D700726F8D /* SearchVC.m */; };
+		2A92A1851D8DA1D700726F8D /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1411D8DA1D700726F8D /* SearchVC.m */; };
+		2A92A1861D8DA1D700726F8D /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1411D8DA1D700726F8D /* SearchVC.m */; };
+		2A92A1871D8DA1D700726F8D /* SortFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1441D8DA1D700726F8D /* SortFieldVC.m */; };
+		2A92A1881D8DA1D700726F8D /* SortFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1441D8DA1D700726F8D /* SortFieldVC.m */; };
+		2A92A1891D8DA1D700726F8D /* SortFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1441D8DA1D700726F8D /* SortFieldVC.m */; };
+		2A92A18A1D8DA1D700726F8D /* TinhThanhVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1471D8DA1D700726F8D /* TinhThanhVC.m */; };
+		2A92A18B1D8DA1D700726F8D /* TinhThanhVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1471D8DA1D700726F8D /* TinhThanhVC.m */; };
+		2A92A18C1D8DA1D700726F8D /* TinhThanhVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92A1471D8DA1D700726F8D /* TinhThanhVC.m */; };
+		2A92A18E1D8DA26600726F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A18D1D8DA26600726F8D /* Assets.xcassets */; };
+		2A92A18F1D8DA26600726F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A18D1D8DA26600726F8D /* Assets.xcassets */; };
+		2A92A1901D8DA26600726F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A92A18D1D8DA26600726F8D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A92A0EC1D8DA0A800726F8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A92A0CA1D8DA0A800726F8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A92A0D11D8DA0A800726F8D;
+			remoteInfo = ComViet;
+		};
+		2A92A0F71D8DA0A800726F8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A92A0CA1D8DA0A800726F8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A92A0D11D8DA0A800726F8D;
+			remoteInfo = ComViet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A92A0D21D8DA0A800726F8D /* ComViet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComViet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A92A0EB1D8DA0A800726F8D /* ComVietTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComVietTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A92A0EF1D8DA0A800726F8D /* ComVietTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComVietTests.m; sourceTree = "<group>"; };
+		2A92A0F11D8DA0A800726F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A92A0F61D8DA0A800726F8D /* ComVietUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComVietUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A92A0FA1D8DA0A800726F8D /* ComVietUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComVietUITests.m; sourceTree = "<group>"; };
+		2A92A0FC1D8DA0A800726F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A92A10A1D8DA1D700726F8D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A92A10B1D8DA1D700726F8D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A92A10F1D8DA1D700726F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A92A1101D8DA1D700726F8D /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		2A92A1111D8DA1D700726F8D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A92A1121D8DA1D700726F8D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A92A1151D8DA1D700726F8D /* Introduce.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Introduce.storyboard; sourceTree = "<group>"; };
+		2A92A1161D8DA1D700726F8D /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		2A92A1171D8DA1D700726F8D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2A92A1181D8DA1D700726F8D /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		2A92A11C1D8DA1D700726F8D /* BaseNV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNV.h; sourceTree = "<group>"; };
+		2A92A11D1D8DA1D700726F8D /* BaseNV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNV.m; sourceTree = "<group>"; };
+		2A92A11F1D8DA1D700726F8D /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		2A92A1201D8DA1D700726F8D /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		2A92A1231D8DA1D700726F8D /* CellIntro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellIntro.h; sourceTree = "<group>"; };
+		2A92A1241D8DA1D700726F8D /* CellIntro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellIntro.m; sourceTree = "<group>"; };
+		2A92A1261D8DA1D700726F8D /* IntroduceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroduceVC.h; sourceTree = "<group>"; };
+		2A92A1271D8DA1D700726F8D /* IntroduceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroduceVC.m; sourceTree = "<group>"; };
+		2A92A12A1D8DA1D700726F8D /* ForGetpassVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForGetpassVC.h; sourceTree = "<group>"; };
+		2A92A12B1D8DA1D700726F8D /* ForGetpassVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForGetpassVC.m; sourceTree = "<group>"; };
+		2A92A12D1D8DA1D700726F8D /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		2A92A12E1D8DA1D700726F8D /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		2A92A1301D8DA1D700726F8D /* SignUpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpVC.h; sourceTree = "<group>"; };
+		2A92A1311D8DA1D700726F8D /* SignUpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpVC.m; sourceTree = "<group>"; };
+		2A92A1331D8DA1D700726F8D /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		2A92A1341D8DA1D700726F8D /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		2A92A1361D8DA1D700726F8D /* MenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuVC.h; sourceTree = "<group>"; };
+		2A92A1371D8DA1D700726F8D /* MenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuVC.m; sourceTree = "<group>"; };
+		2A92A13A1D8DA1D700726F8D /* CellSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSearch.h; sourceTree = "<group>"; };
+		2A92A13B1D8DA1D700726F8D /* CellSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSearch.m; sourceTree = "<group>"; };
+		2A92A13D1D8DA1D700726F8D /* DanhMucVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanhMucVC.h; sourceTree = "<group>"; };
+		2A92A13E1D8DA1D700726F8D /* DanhMucVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanhMucVC.m; sourceTree = "<group>"; };
+		2A92A1401D8DA1D700726F8D /* SearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchVC.h; sourceTree = "<group>"; };
+		2A92A1411D8DA1D700726F8D /* SearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchVC.m; sourceTree = "<group>"; };
+		2A92A1431D8DA1D700726F8D /* SortFieldVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortFieldVC.h; sourceTree = "<group>"; };
+		2A92A1441D8DA1D700726F8D /* SortFieldVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortFieldVC.m; sourceTree = "<group>"; };
+		2A92A1461D8DA1D700726F8D /* TinhThanhVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinhThanhVC.h; sourceTree = "<group>"; };
+		2A92A1471D8DA1D700726F8D /* TinhThanhVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinhThanhVC.m; sourceTree = "<group>"; };
+		2A92A18D1D8DA26600726F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A92A0CF1D8DA0A800726F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92A0E81D8DA0A800726F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92A0F31D8DA0A800726F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A92A0C91D8DA0A800726F8D = {
+			isa = PBXGroup;
+			children = (
+				2A92A0D41D8DA0A800726F8D /* ComViet */,
+				2A92A0EE1D8DA0A800726F8D /* ComVietTests */,
+				2A92A0F91D8DA0A800726F8D /* ComVietUITests */,
+				2A92A0D31D8DA0A800726F8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A92A0D31D8DA0A800726F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A0D21D8DA0A800726F8D /* ComViet.app */,
+				2A92A0EB1D8DA0A800726F8D /* ComVietTests.xctest */,
+				2A92A0F61D8DA0A800726F8D /* ComVietUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A92A0D41D8DA0A800726F8D /* ComViet */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1091D8DA1D700726F8D /* AppDelegate */,
+				2A92A18D1D8DA26600726F8D /* Assets.xcassets */,
+				2A92A10D1D8DA1D700726F8D /* Base.lproj */,
+				2A92A1101D8DA1D700726F8D /* define.h */,
+				2A92A1111D8DA1D700726F8D /* Info.plist */,
+				2A92A1121D8DA1D700726F8D /* main.m */,
+				2A92A1131D8DA1D700726F8D /* View */,
+				2A92A1191D8DA1D700726F8D /* ViewController */,
+			);
+			path = ComViet;
+			sourceTree = "<group>";
+		};
+		2A92A0EE1D8DA0A800726F8D /* ComVietTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A0EF1D8DA0A800726F8D /* ComVietTests.m */,
+				2A92A0F11D8DA0A800726F8D /* Info.plist */,
+			);
+			path = ComVietTests;
+			sourceTree = "<group>";
+		};
+		2A92A0F91D8DA0A800726F8D /* ComVietUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A0FA1D8DA0A800726F8D /* ComVietUITests.m */,
+				2A92A0FC1D8DA0A800726F8D /* Info.plist */,
+			);
+			path = ComVietUITests;
+			sourceTree = "<group>";
+		};
+		2A92A1091D8DA1D700726F8D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A10A1D8DA1D700726F8D /* AppDelegate.h */,
+				2A92A10B1D8DA1D700726F8D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2A92A10D1D8DA1D700726F8D /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A10E1D8DA1D700726F8D /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		2A92A1131D8DA1D700726F8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1141D8DA1D700726F8D /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A92A1141D8DA1D700726F8D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1151D8DA1D700726F8D /* Introduce.storyboard */,
+				2A92A1161D8DA1D700726F8D /* Login.storyboard */,
+				2A92A1171D8DA1D700726F8D /* Main.storyboard */,
+				2A92A1181D8DA1D700726F8D /* Search.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2A92A1191D8DA1D700726F8D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A11A1D8DA1D700726F8D /* Base */,
+				2A92A1211D8DA1D700726F8D /* Introduce */,
+				2A92A1281D8DA1D700726F8D /* Login */,
+				2A92A1321D8DA1D700726F8D /* MainVC */,
+				2A92A1351D8DA1D700726F8D /* MenuVC */,
+				2A92A1381D8DA1D700726F8D /* Search */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2A92A11A1D8DA1D700726F8D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A11B1D8DA1D700726F8D /* BaseNV */,
+				2A92A11E1D8DA1D700726F8D /* BaseVC */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2A92A11B1D8DA1D700726F8D /* BaseNV */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A11C1D8DA1D700726F8D /* BaseNV.h */,
+				2A92A11D1D8DA1D700726F8D /* BaseNV.m */,
+			);
+			path = BaseNV;
+			sourceTree = "<group>";
+		};
+		2A92A11E1D8DA1D700726F8D /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A11F1D8DA1D700726F8D /* BaseVC.h */,
+				2A92A1201D8DA1D700726F8D /* BaseVC.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		2A92A1211D8DA1D700726F8D /* Introduce */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1221D8DA1D700726F8D /* CellIntro */,
+				2A92A1251D8DA1D700726F8D /* IntroduceVC */,
+			);
+			path = Introduce;
+			sourceTree = "<group>";
+		};
+		2A92A1221D8DA1D700726F8D /* CellIntro */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1231D8DA1D700726F8D /* CellIntro.h */,
+				2A92A1241D8DA1D700726F8D /* CellIntro.m */,
+			);
+			path = CellIntro;
+			sourceTree = "<group>";
+		};
+		2A92A1251D8DA1D700726F8D /* IntroduceVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1261D8DA1D700726F8D /* IntroduceVC.h */,
+				2A92A1271D8DA1D700726F8D /* IntroduceVC.m */,
+			);
+			path = IntroduceVC;
+			sourceTree = "<group>";
+		};
+		2A92A1281D8DA1D700726F8D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1291D8DA1D700726F8D /* ForGetpassVC */,
+				2A92A12C1D8DA1D700726F8D /* LoginVC */,
+				2A92A12F1D8DA1D700726F8D /* SignUpVC */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2A92A1291D8DA1D700726F8D /* ForGetpassVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A12A1D8DA1D700726F8D /* ForGetpassVC.h */,
+				2A92A12B1D8DA1D700726F8D /* ForGetpassVC.m */,
+			);
+			path = ForGetpassVC;
+			sourceTree = "<group>";
+		};
+		2A92A12C1D8DA1D700726F8D /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A12D1D8DA1D700726F8D /* LoginVC.h */,
+				2A92A12E1D8DA1D700726F8D /* LoginVC.m */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		2A92A12F1D8DA1D700726F8D /* SignUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1301D8DA1D700726F8D /* SignUpVC.h */,
+				2A92A1311D8DA1D700726F8D /* SignUpVC.m */,
+			);
+			path = SignUpVC;
+			sourceTree = "<group>";
+		};
+		2A92A1321D8DA1D700726F8D /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1331D8DA1D700726F8D /* MainVC.h */,
+				2A92A1341D8DA1D700726F8D /* MainVC.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		2A92A1351D8DA1D700726F8D /* MenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1361D8DA1D700726F8D /* MenuVC.h */,
+				2A92A1371D8DA1D700726F8D /* MenuVC.m */,
+			);
+			path = MenuVC;
+			sourceTree = "<group>";
+		};
+		2A92A1381D8DA1D700726F8D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1391D8DA1D700726F8D /* CellSearch */,
+				2A92A13C1D8DA1D700726F8D /* DanhMuc */,
+				2A92A13F1D8DA1D700726F8D /* SearchVC */,
+				2A92A1401D8DA1D700726F8D /* SearchVC.h */,
+				2A92A1411D8DA1D700726F8D /* SearchVC.m */,
+				2A92A1421D8DA1D700726F8D /* SortFilter */,
+				2A92A1451D8DA1D700726F8D /* TinhThanh */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		2A92A1391D8DA1D700726F8D /* CellSearch */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A13A1D8DA1D700726F8D /* CellSearch.h */,
+				2A92A13B1D8DA1D700726F8D /* CellSearch.m */,
+			);
+			path = CellSearch;
+			sourceTree = "<group>";
+		};
+		2A92A13C1D8DA1D700726F8D /* DanhMuc */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A13D1D8DA1D700726F8D /* DanhMucVC.h */,
+				2A92A13E1D8DA1D700726F8D /* DanhMucVC.m */,
+			);
+			path = DanhMuc;
+			sourceTree = "<group>";
+		};
+		2A92A13F1D8DA1D700726F8D /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchVC;
+			sourceTree = "<group>";
+		};
+		2A92A1421D8DA1D700726F8D /* SortFilter */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1431D8DA1D700726F8D /* SortFieldVC.h */,
+				2A92A1441D8DA1D700726F8D /* SortFieldVC.m */,
+			);
+			path = SortFilter;
+			sourceTree = "<group>";
+		};
+		2A92A1451D8DA1D700726F8D /* TinhThanh */ = {
+			isa = PBXGroup;
+			children = (
+				2A92A1461D8DA1D700726F8D /* TinhThanhVC.h */,
+				2A92A1471D8DA1D700726F8D /* TinhThanhVC.m */,
+			);
+			path = TinhThanh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A92A0D11D8DA0A800726F8D /* ComViet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A92A0FF1D8DA0A800726F8D /* Build configuration list for PBXNativeTarget "ComViet" */;
+			buildPhases = (
+				2A92A0CE1D8DA0A800726F8D /* Sources */,
+				2A92A0CF1D8DA0A800726F8D /* Frameworks */,
+				2A92A0D01D8DA0A800726F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComViet;
+			productName = ComViet;
+			productReference = 2A92A0D21D8DA0A800726F8D /* ComViet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A92A0EA1D8DA0A800726F8D /* ComVietTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A92A1021D8DA0A800726F8D /* Build configuration list for PBXNativeTarget "ComVietTests" */;
+			buildPhases = (
+				2A92A0E71D8DA0A800726F8D /* Sources */,
+				2A92A0E81D8DA0A800726F8D /* Frameworks */,
+				2A92A0E91D8DA0A800726F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A92A0ED1D8DA0A800726F8D /* PBXTargetDependency */,
+			);
+			name = ComVietTests;
+			productName = ComVietTests;
+			productReference = 2A92A0EB1D8DA0A800726F8D /* ComVietTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A92A0F51D8DA0A800726F8D /* ComVietUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A92A1051D8DA0A800726F8D /* Build configuration list for PBXNativeTarget "ComVietUITests" */;
+			buildPhases = (
+				2A92A0F21D8DA0A800726F8D /* Sources */,
+				2A92A0F31D8DA0A800726F8D /* Frameworks */,
+				2A92A0F41D8DA0A800726F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A92A0F81D8DA0A800726F8D /* PBXTargetDependency */,
+			);
+			name = ComVietUITests;
+			productName = ComVietUITests;
+			productReference = 2A92A0F61D8DA0A800726F8D /* ComVietUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A92A0CA1D8DA0A800726F8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kai;
+				TargetAttributes = {
+					2A92A0D11D8DA0A800726F8D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2A92A0EA1D8DA0A800726F8D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2A92A0D11D8DA0A800726F8D;
+					};
+					2A92A0F51D8DA0A800726F8D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2A92A0D11D8DA0A800726F8D;
+					};
+				};
+			};
+			buildConfigurationList = 2A92A0CD1D8DA0A800726F8D /* Build configuration list for PBXProject "ComViet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A92A0C91D8DA0A800726F8D;
+			productRefGroup = 2A92A0D31D8DA0A800726F8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A92A0D11D8DA0A800726F8D /* ComViet */,
+				2A92A0EA1D8DA0A800726F8D /* ComVietTests */,
+				2A92A0F51D8DA0A800726F8D /* ComVietUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A92A0D01D8DA0A800726F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A92A1571D8DA1D700726F8D /* Introduce.storyboard in Resources */,
+				2A92A14E1D8DA1D700726F8D /* LaunchScreen.storyboard in Resources */,
+				2A92A15D1D8DA1D700726F8D /* Main.storyboard in Resources */,
+				2A92A1601D8DA1D700726F8D /* Search.storyboard in Resources */,
+				2A92A18E1D8DA26600726F8D /* Assets.xcassets in Resources */,
+				2A92A15A1D8DA1D700726F8D /* Login.storyboard in Resources */,
+				2A92A1511D8DA1D700726F8D /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92A0E91D8DA0A800726F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A92A1581D8DA1D700726F8D /* Introduce.storyboard in Resources */,
+				2A92A14F1D8DA1D700726F8D /* LaunchScreen.storyboard in Resources */,
+				2A92A15E1D8DA1D700726F8D /* Main.storyboard in Resources */,
+				2A92A1611D8DA1D700726F8D /* Search.storyboard in Resources */,
+				2A92A18F1D8DA26600726F8D /* Assets.xcassets in Resources */,
+				2A92A15B1D8DA1D700726F8D /* Login.storyboard in Resources */,
+				2A92A1521D8DA1D700726F8D /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92A0F41D8DA0A800726F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A92A1591D8DA1D700726F8D /* Introduce.storyboard in Resources */,
+				2A92A1501D8DA1D700726F8D /* LaunchScreen.storyboard in Resources */,
+				2A92A15F1D8DA1D700726F8D /* Main.storyboard in Resources */,
+				2A92A1621D8DA1D700726F8D /* Search.storyboard in Resources */,
+				2A92A1901D8DA26600726F8D /* Assets.xcassets in Resources */,
+				2A92A15C1D8DA1D700726F8D /* Login.storyboard in Resources */,
+				2A92A1531D8DA1D700726F8D /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A92A0CE1D8DA0A800726F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A92A1871D8DA1D700726F8D /* SortFieldVC.m in Sources */,
+				2A92A1631D8DA1D700726F8D /* BaseNV.m in Sources */,
+				2A92A17E1D8DA1D700726F8D /* CellSearch.m in Sources */,
+				2A92A17B1D8DA1D700726F8D /* MenuVC.m in Sources */,
+				2A92A1541D8DA1D700726F8D /* main.m in Sources */,
+				2A92A1481D8DA1D700726F8D /* AppDelegate.m in Sources */,
+				2A92A1781D8DA1D700726F8D /* MainVC.m in Sources */,
+				2A92A18A1D8DA1D700726F8D /* TinhThanhVC.m in Sources */,
+				2A92A1841D8DA1D700726F8D /* SearchVC.m in Sources */,
+				2A92A1661D8DA1D700726F8D /* BaseVC.m in Sources */,
+				2A92A16C1D8DA1D700726F8D /* IntroduceVC.m in Sources */,
+				2A92A1811D8DA1D700726F8D /* DanhMucVC.m in Sources */,
+				2A92A16F1D8DA1D700726F8D /* ForGetpassVC.m in Sources */,
+				2A92A1751D8DA1D700726F8D /* SignUpVC.m in Sources */,
+				2A92A1721D8DA1D700726F8D /* LoginVC.m in Sources */,
+				2A92A1691D8DA1D700726F8D /* CellIntro.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92A0E71D8DA0A800726F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A92A1701D8DA1D700726F8D /* ForGetpassVC.m in Sources */,
+				2A92A1491D8DA1D700726F8D /* AppDelegate.m in Sources */,
+				2A92A1791D8DA1D700726F8D /* MainVC.m in Sources */,
+				2A92A1761D8DA1D700726F8D /* SignUpVC.m in Sources */,
+				2A92A1731D8DA1D700726F8D /* LoginVC.m in Sources */,
+				2A92A1821D8DA1D700726F8D /* DanhMucVC.m in Sources */,
+				2A92A16D1D8DA1D700726F8D /* IntroduceVC.m in Sources */,
+				2A92A1551D8DA1D700726F8D /* main.m in Sources */,
+				2A92A16A1D8DA1D700726F8D /* CellIntro.m in Sources */,
+				2A92A1641D8DA1D700726F8D /* BaseNV.m in Sources */,
+				2A92A18B1D8DA1D700726F8D /* TinhThanhVC.m in Sources */,
+				2A92A17C1D8DA1D700726F8D /* MenuVC.m in Sources */,
+				2A92A1671D8DA1D700726F8D /* BaseVC.m in Sources */,
+				2A92A17F1D8DA1D700726F8D /* CellSearch.m in Sources */,
+				2A92A1881D8DA1D700726F8D /* SortFieldVC.m in Sources */,
+				2A92A1851D8DA1D700726F8D /* SearchVC.m in Sources */,
+				2A92A0F01D8DA0A800726F8D /* ComVietTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92A0F21D8DA0A800726F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A92A1711D8DA1D700726F8D /* ForGetpassVC.m in Sources */,
+				2A92A14A1D8DA1D700726F8D /* AppDelegate.m in Sources */,
+				2A92A17A1D8DA1D700726F8D /* MainVC.m in Sources */,
+				2A92A1771D8DA1D700726F8D /* SignUpVC.m in Sources */,
+				2A92A1741D8DA1D700726F8D /* LoginVC.m in Sources */,
+				2A92A1831D8DA1D700726F8D /* DanhMucVC.m in Sources */,
+				2A92A16E1D8DA1D700726F8D /* IntroduceVC.m in Sources */,
+				2A92A1561D8DA1D700726F8D /* main.m in Sources */,
+				2A92A16B1D8DA1D700726F8D /* CellIntro.m in Sources */,
+				2A92A1651D8DA1D700726F8D /* BaseNV.m in Sources */,
+				2A92A18C1D8DA1D700726F8D /* TinhThanhVC.m in Sources */,
+				2A92A17D1D8DA1D700726F8D /* MenuVC.m in Sources */,
+				2A92A1681D8DA1D700726F8D /* BaseVC.m in Sources */,
+				2A92A1801D8DA1D700726F8D /* CellSearch.m in Sources */,
+				2A92A1891D8DA1D700726F8D /* SortFieldVC.m in Sources */,
+				2A92A1861D8DA1D700726F8D /* SearchVC.m in Sources */,
+				2A92A0FB1D8DA0A800726F8D /* ComVietUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A92A0ED1D8DA0A800726F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A92A0D11D8DA0A800726F8D /* ComViet */;
+			targetProxy = 2A92A0EC1D8DA0A800726F8D /* PBXContainerItemProxy */;
+		};
+		2A92A0F81D8DA0A800726F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A92A0D11D8DA0A800726F8D /* ComViet */;
+			targetProxy = 2A92A0F71D8DA0A800726F8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A92A10E1D8DA1D700726F8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A92A10F1D8DA1D700726F8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A92A0FD1D8DA0A800726F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A92A0FE1D8DA0A800726F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A92A1001D8DA0A800726F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ComViet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailuu.ComViet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A92A1011D8DA0A800726F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ComViet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailuu.ComViet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A92A1031D8DA0A800726F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ComVietTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailuu.ComVietTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComViet.app/ComViet";
+			};
+			name = Debug;
+		};
+		2A92A1041D8DA0A800726F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ComVietTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailuu.ComVietTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComViet.app/ComViet";
+			};
+			name = Release;
+		};
+		2A92A1061D8DA0A800726F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ComVietUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailuu.ComVietUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ComViet;
+			};
+			name = Debug;
+		};
+		2A92A1071D8DA0A800726F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ComVietUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kailuu.ComVietUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ComViet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A92A0CD1D8DA0A800726F8D /* Build configuration list for PBXProject "ComViet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A92A0FD1D8DA0A800726F8D /* Debug */,
+				2A92A0FE1D8DA0A800726F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A92A0FF1D8DA0A800726F8D /* Build configuration list for PBXNativeTarget "ComViet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A92A1001D8DA0A800726F8D /* Debug */,
+				2A92A1011D8DA0A800726F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A92A1021D8DA0A800726F8D /* Build configuration list for PBXNativeTarget "ComVietTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A92A1031D8DA0A800726F8D /* Debug */,
+				2A92A1041D8DA0A800726F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A92A1051D8DA0A800726F8D /* Build configuration list for PBXNativeTarget "ComVietUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A92A1061D8DA0A800726F8D /* Debug */,
+				2A92A1071D8DA0A800726F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A92A0CA1D8DA0A800726F8D /* Project object */;
+}
