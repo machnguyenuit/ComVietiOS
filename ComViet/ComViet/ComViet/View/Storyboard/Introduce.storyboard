@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="nod-SW-6oO">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -21,7 +20,12 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="188" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Hr5-Zn-GBe">
                                 <rect key="frame" x="0.0" y="20" width="600" height="580"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="S2d-5g-Rmy">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="CellIntro" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellIntro" rowHeight="188" id="vbC-YA-T3i" customClass="CellIntro">
                                         <rect key="frame" x="0.0" y="50" width="600" height="188"/>
@@ -37,6 +41,9 @@
                                                         <constraint firstAttribute="width" secondItem="Nx9-Kl-xVH" secondAttribute="height" multiplier="3:2" id="Gsw-P1-SG2"/>
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="10" y="33" width="180" height="121"/>
+                                                    </variation>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8m-eB-0Bp">
                                                     <rect key="frame" x="310" y="0.0" width="280" height="187"/>
@@ -45,6 +52,9 @@
                                                         <constraint firstAttribute="width" secondItem="j8m-eB-0Bp" secondAttribute="height" multiplier="3:2" id="dku-Hx-cjL"/>
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="210" y="33" width="180" height="121"/>
+                                                    </variation>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -64,14 +74,84 @@
                                     <outlet property="delegate" destination="nod-SW-6oO" id="iZO-fS-rC8"/>
                                 </connections>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dYJ-dx-JBS">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVx-wn-aMV">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.45116164921465973" green="0.13051542912593292" blue="0.39364360815144567" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIU-ux-LAf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="13116378_1333994599947881_7588280477118972050_o"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Hr5-Zn-GBe" firstAttribute="bottom" secondItem="dYJ-dx-JBS" secondAttribute="bottom" id="Aaq-Xm-rNP">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="PVx-wn-aMV" firstAttribute="width" secondItem="dYJ-dx-JBS" secondAttribute="width" multiplier="22/24" id="EkP-YJ-nSm"/>
+                            <constraint firstItem="PEo-RE-wve" firstAttribute="top" secondItem="PVx-wn-aMV" secondAttribute="bottom" constant="11" id="FL2-uo-6Kj"/>
                             <constraint firstAttribute="trailing" secondItem="Hr5-Zn-GBe" secondAttribute="trailing" id="Hba-DL-BqO"/>
+                            <constraint firstItem="PEo-RE-wve" firstAttribute="top" secondItem="JIU-ux-LAf" secondAttribute="bottom" constant="24" id="NK5-Jv-nqV"/>
+                            <constraint firstItem="dYJ-dx-JBS" firstAttribute="leading" secondItem="Qzj-B3-Ok7" secondAttribute="leading" id="Qq7-Zi-sMX"/>
+                            <constraint firstItem="PVx-wn-aMV" firstAttribute="height" secondItem="dYJ-dx-JBS" secondAttribute="height" multiplier="1/2.5" id="SAq-Go-NAS"/>
+                            <constraint firstItem="JIU-ux-LAf" firstAttribute="height" secondItem="PVx-wn-aMV" secondAttribute="height" multiplier="2" id="TV9-ca-Qkr"/>
+                            <constraint firstItem="PVx-wn-aMV" firstAttribute="centerX" secondItem="dYJ-dx-JBS" secondAttribute="centerX" id="UvJ-KR-Cil"/>
+                            <constraint firstItem="PEo-RE-wve" firstAttribute="top" secondItem="dYJ-dx-JBS" secondAttribute="bottom" id="bZb-bl-1Fe"/>
                             <constraint firstItem="Hr5-Zn-GBe" firstAttribute="leading" secondItem="Qzj-B3-Ok7" secondAttribute="leading" id="bgZ-W2-DKS"/>
-                            <constraint firstItem="PEo-RE-wve" firstAttribute="top" secondItem="Hr5-Zn-GBe" secondAttribute="bottom" id="pV0-bL-ble"/>
+                            <constraint firstAttribute="trailing" secondItem="dYJ-dx-JBS" secondAttribute="trailing" id="fPb-i5-1Ta"/>
+                            <constraint firstItem="JIU-ux-LAf" firstAttribute="width" secondItem="PVx-wn-aMV" secondAttribute="width" multiplier="1/3.5" id="gxO-uA-cRI"/>
+                            <constraint firstItem="JIU-ux-LAf" firstAttribute="leading" secondItem="Qzj-B3-Ok7" secondAttribute="leading" constant="35" id="hpr-wL-Y12"/>
+                            <constraint firstItem="dYJ-dx-JBS" firstAttribute="height" secondItem="Qzj-B3-Ok7" secondAttribute="height" multiplier="1/6" id="jlh-Fl-3Yz"/>
                             <constraint firstItem="Hr5-Zn-GBe" firstAttribute="top" secondItem="u4R-B2-15z" secondAttribute="bottom" id="pbB-6B-BTL"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="dYJ-dx-JBS"/>
+                                <exclude reference="PVx-wn-aMV"/>
+                                <exclude reference="JIU-ux-LAf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Aaq-Xm-rNP"/>
+                                <exclude reference="TV9-ca-Qkr"/>
+                                <exclude reference="gxO-uA-cRI"/>
+                                <exclude reference="hpr-wL-Y12"/>
+                                <exclude reference="Qq7-Zi-sMX"/>
+                                <exclude reference="fPb-i5-1Ta"/>
+                                <exclude reference="jlh-Fl-3Yz"/>
+                                <exclude reference="EkP-YJ-nSm"/>
+                                <exclude reference="SAq-Go-NAS"/>
+                                <exclude reference="UvJ-KR-Cil"/>
+                                <exclude reference="FL2-uo-6Kj"/>
+                                <exclude reference="NK5-Jv-nqV"/>
+                                <exclude reference="bZb-bl-1Fe"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="dYJ-dx-JBS"/>
+                                <include reference="PVx-wn-aMV"/>
+                                <include reference="JIU-ux-LAf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Aaq-Xm-rNP"/>
+                                <include reference="TV9-ca-Qkr"/>
+                                <include reference="gxO-uA-cRI"/>
+                                <include reference="hpr-wL-Y12"/>
+                                <include reference="Qq7-Zi-sMX"/>
+                                <include reference="fPb-i5-1Ta"/>
+                                <include reference="jlh-Fl-3Yz"/>
+                                <include reference="EkP-YJ-nSm"/>
+                                <include reference="SAq-Go-NAS"/>
+                                <include reference="UvJ-KR-Cil"/>
+                                <include reference="FL2-uo-6Kj"/>
+                                <include reference="NK5-Jv-nqV"/>
+                                <include reference="bZb-bl-1Fe"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="tbvContent" destination="Hr5-Zn-GBe" id="hDx-vd-htx"/>
@@ -79,7 +159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8bd-7o-t9J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-719" y="186"/>
+            <point key="canvasLocation" x="-720" y="186"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="YIC-M1-DTn">
@@ -90,4 +170,7 @@
             <point key="canvasLocation" x="1029" y="911"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="13116378_1333994599947881_7588280477118972050_o" width="93" height="96"/>
+    </resources>
 </document>
