@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "IntroduceVC.h"
 #import "define.h"
-
+#import "SearchVC.h"
 @interface AppDelegate ()
 
 @end
@@ -22,7 +22,7 @@
     _rootNV = (BaseNV*)_window.rootViewController;
     _mainVC = _rootNV.viewControllers[0];
     
-    IntroduceVC *vc = VCFromSB(IntroduceVC, StoryboardIntroduce);
+    SearchVC *vc = VCFromSB(SearchVC, StoryboardSearch);
     
          [_rootNV setViewControllers:@[vc] animated:NO];
     

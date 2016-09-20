@@ -9,7 +9,7 @@
 #import "SearchVC.h"
 #import "define.h"
 #import "CellSearch.h"
-
+#import "DetailVC.h"
 
 @interface SearchVC ()<UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate>
 
@@ -55,6 +55,14 @@
     cell.lblMoreInfoItem.text = @"Ngon, bổ , rẻ , tươi, khuyến mãi 50 % , off sale";
     cell.lblPriceItem.text = @"15 000";
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    DetailVC *vc = VCFromSB(DetailVC, StoryboardSearch);
+    
+    [self presentViewController:vc animated:YES completion:nil];
+    
 }
 
 

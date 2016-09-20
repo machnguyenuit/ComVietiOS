@@ -18,11 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="188" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Hr5-Zn-GBe">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="188" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Hr5-Zn-GBe">
                                 <rect key="frame" x="0.0" y="20" width="600" height="580"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="S2d-5g-Rmy">
-                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <rect key="frame" x="0.0" y="256" width="600" height="128"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </view>
@@ -85,6 +85,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIU-ux-LAf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="13116378_1333994599947881_7588280477118972050_o"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="35" y="669" width="105" height="107"/>
+                                </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -115,19 +118,19 @@
                                 <exclude reference="JIU-ux-LAf"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Aaq-Xm-rNP"/>
-                                <exclude reference="TV9-ca-Qkr"/>
-                                <exclude reference="gxO-uA-cRI"/>
-                                <exclude reference="hpr-wL-Y12"/>
-                                <exclude reference="Qq7-Zi-sMX"/>
-                                <exclude reference="fPb-i5-1Ta"/>
-                                <exclude reference="jlh-Fl-3Yz"/>
-                                <exclude reference="EkP-YJ-nSm"/>
-                                <exclude reference="SAq-Go-NAS"/>
-                                <exclude reference="UvJ-KR-Cil"/>
                                 <exclude reference="FL2-uo-6Kj"/>
                                 <exclude reference="NK5-Jv-nqV"/>
                                 <exclude reference="bZb-bl-1Fe"/>
+                                <exclude reference="TV9-ca-Qkr"/>
+                                <exclude reference="gxO-uA-cRI"/>
+                                <exclude reference="hpr-wL-Y12"/>
+                                <exclude reference="EkP-YJ-nSm"/>
+                                <exclude reference="SAq-Go-NAS"/>
+                                <exclude reference="UvJ-KR-Cil"/>
+                                <exclude reference="Qq7-Zi-sMX"/>
+                                <exclude reference="fPb-i5-1Ta"/>
+                                <exclude reference="jlh-Fl-3Yz"/>
+                                <exclude reference="Aaq-Xm-rNP"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -137,19 +140,19 @@
                                 <include reference="JIU-ux-LAf"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Aaq-Xm-rNP"/>
-                                <include reference="TV9-ca-Qkr"/>
-                                <include reference="gxO-uA-cRI"/>
-                                <include reference="hpr-wL-Y12"/>
-                                <include reference="Qq7-Zi-sMX"/>
-                                <include reference="fPb-i5-1Ta"/>
-                                <include reference="jlh-Fl-3Yz"/>
-                                <include reference="EkP-YJ-nSm"/>
-                                <include reference="SAq-Go-NAS"/>
-                                <include reference="UvJ-KR-Cil"/>
                                 <include reference="FL2-uo-6Kj"/>
                                 <include reference="NK5-Jv-nqV"/>
                                 <include reference="bZb-bl-1Fe"/>
+                                <include reference="TV9-ca-Qkr"/>
+                                <include reference="gxO-uA-cRI"/>
+                                <include reference="hpr-wL-Y12"/>
+                                <include reference="EkP-YJ-nSm"/>
+                                <include reference="SAq-Go-NAS"/>
+                                <include reference="UvJ-KR-Cil"/>
+                                <include reference="Qq7-Zi-sMX"/>
+                                <include reference="fPb-i5-1Ta"/>
+                                <include reference="jlh-Fl-3Yz"/>
+                                <include reference="Aaq-Xm-rNP"/>
                             </mask>
                         </variation>
                     </view>
